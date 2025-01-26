@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  color: white;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.scoreboard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+img:hover{
+  border: 3px solid black;
+}
